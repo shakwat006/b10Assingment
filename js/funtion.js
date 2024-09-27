@@ -31,3 +31,13 @@ function gettotalDonate(id){
 }
 
 
+function showAlert() {
+  Swal.fire({
+    title: 'successful!',
+    text: 'your complate donate!',
+    icon: 'success',
+    confirmButtonText: 'Close confirmation'
+  });
+}
+
+
